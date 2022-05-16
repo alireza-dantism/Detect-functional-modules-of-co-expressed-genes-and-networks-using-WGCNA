@@ -184,7 +184,7 @@ plotDendroAndColors(
 
 
 
-# -------------- figure out which modules are associated with each trait/treatment group -----------
+# -------------- figure out which modules are associated with each Samples/RNA Seq Counts group -----------
 
 # Get Module Eigengenes per cluster
 MEs0 <- moduleEigengenes(input_mat, mergedColors)$eigengenes
